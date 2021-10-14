@@ -1,0 +1,70 @@
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+/* two classes in one */
+  header, footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+/* specifcally focusing on the profile avi size and positioning*/ 
+  header .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  
+  header .profile-thumbnail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+  }
+  
+/* focuses on the follow button */
+  header .follow-btn {
+    display: flex;
+    margin: 0 0 0 auto;
+  }
+  
+  header .follow-btn button {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  
+  header h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+  
+/* tweet */
+  .tweet p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .inner hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+
+/* footer */ 
+  footer .numbers {
+    display: flex;
+    font-size: 15px;
+  }
+  footer .numbers strong {
+    font-size: 18px;
+  }
+  footer .numbers .likes {
+    margin-left: 10px;
+  }
+  footer .buttons {
+    margin-left: auto;
+  }
+  footer .buttons button {
+    border: 0;
+    background: transparent;
+  }
